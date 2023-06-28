@@ -1,3 +1,3 @@
-FROM ubuntu:latest
+FROM python:3.9-alpine
 
-RUN "echo Hello, World"
+CMD ["echo","Hello, World"]
