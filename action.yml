@@ -1,0 +1,8 @@
+name: 'Print Hello World'
+description: 'Print "Hello World" in the workflow'
+branding:
+  icon: 'shield'  
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
