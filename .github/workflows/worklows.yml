@@ -1,4 +1,4 @@
-name: javascript
+name: test
 on:
   push:
 
@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Docker Print Hello,World
-      uses: yk14sec/helloworld-actions
+      uses: yk14sec/helloworld-actions@v1.0
